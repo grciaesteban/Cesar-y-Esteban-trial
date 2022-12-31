@@ -10,6 +10,24 @@
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
   <main id="main-doc"> 
+    <nav id="navbar">
+      <header><h1>JS Documentation</h1></header>
+      <nav class="menu">
+        <ul>
+          <li><a  class="nav-link" href="#Introduction">Introduction</a></li>
+          <li><a  class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+          <li><a  class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a></li>
+          <li><a  class="nav-link" href="#Hello_world">Hello World</a></li>
+          <li><a  class="nav-link" href="#Variables">Variables</a></li>
+          <li><a  class="nav-link" href="#Declaring_variables">Declaring variables</a></li>
+          <li><a  class="nav-link" href="#Variable_scope">Variable Scope</a></li>
+        </ul>
+      </nav>
+
+    </nav>
+  
+     <div class="container">
+
     <section class="main-section" id="Introduction"> <header><h1>Introduction</h1></header>
     <p>
       JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
@@ -74,7 +92,7 @@ With the keyword var. For example,
     </p>
     <code>
       var x = 42.
-    </code>
+    </code><br><br>
     <p>
       This syntax can be used to declare both local and global variables.
 
@@ -82,7 +100,7 @@ By simply assigning it a value. For example,
     </p>
     <code>
       x = 42.
-    </code>
+    </code><br><br>
     <p>
       This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.
 
@@ -90,7 +108,7 @@ With the keyword let. For example,
     </p>
     <code>
       let y = 13.
-    </code>
+    </code><br><br>
     <p>
       This syntax can be used to declare a block scope local variable. See Variable scope below.
     </p>
@@ -106,17 +124,18 @@ JavaScript before ECMAScript 2015 does not have block statement scope; rather, a
     <code>
       if (true) { var x = 5; } console.log(x); // 5
     </code>
+    <br><br>
     <p>
       This behavior changes, when using the let declaration introduced in ECMAScript 2015.
     </p>
     <code>
       if (true) { let y = 5; } console.log(y); // ReferenceError: y is
 not defined
-    </code>
+    </code><br>
     </section>
   
       
-        
+     </div>div   
     
   </main>
     <script  src="js/index.js"></script>
